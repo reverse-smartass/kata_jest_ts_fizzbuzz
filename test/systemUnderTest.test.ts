@@ -1,10 +1,4 @@
-class SystemUnderTest {
-    constructor() {
-    }
-    getMessage = (name: string) => {
-        return `Hello ${name}`
-    }
-}
+import { SystemUnderTest } from "./systemUnderTest"
 
 test("given getMessage is called, when 'Jérôme' is passed, then 'Hello Jérôme' is returned", () => {
     // arrange
