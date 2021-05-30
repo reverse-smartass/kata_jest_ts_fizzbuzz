@@ -1,4 +1,4 @@
-import { SystemUnderTest } from "./systemUnderTest"
+import { SystemUnderTest } from "../src/systemUnderTest"
 
 test("given getMessage is called, when 'Jérôme' is passed, then 'Hello Jérôme' is returned", () => {
     // arrange
